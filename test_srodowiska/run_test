@@ -1,0 +1,3 @@
+as -o test.o test.S
+ld --oformat binary -o test.img -Ttext 0x7C00 test.o
+qemu-system-i386 -drive file=test.img,format=raw
