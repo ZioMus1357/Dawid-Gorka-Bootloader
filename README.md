@@ -6,6 +6,12 @@ QEMU
 
 Treści zadań wraz z potrzebnymi materiałami znajdują się odpowiednio w folderach zd0, zd1, zd2
 
+Skrypt run_dawid_gorka.sh zawiera następujące opcje:
+
+clone: pobiera repozytorium
+run: testuje poprawne działanie środowiska
+clean: usuwa pobrane repozytorium 
+
 Link do prezentacji:
 
 https://www.youtube.com/watch?v=6zr_zaVbIUg&t=2s
