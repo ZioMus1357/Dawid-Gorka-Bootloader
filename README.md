@@ -8,9 +8,9 @@ Treści zadań wraz z potrzebnymi materiałami znajdują się odpowiednio w fold
 
 Skrypt run_dawid_gorka.sh zawiera następujące opcje:
 
-clone: pobiera repozytorium
-run: testuje poprawne działanie środowiska
-clean: usuwa pobrane repozytorium 
+clone: pobiera repozytorium 
+run: testuje poprawne działanie środowiska 
+clean: usuwa pobrane repozytorium  
 
 Link do prezentacji:
 
