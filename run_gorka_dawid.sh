@@ -11,10 +11,12 @@ then
 
   cd Dawid-Gorka-Bootloader
   cd test_srodowiska
-  ./run_test
+  as -o test.o test.S
+  ld --oformat binary -o test.img -Ttext 0x7C00 test.o
+  qemu-system-i386 -drive file=test.img,format=raw
   rm test.o
   rm test.img
-  cd ..
+  cd ../..
 
 elif [ $1 == 'clean' ]
 then
